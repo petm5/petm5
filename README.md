@@ -1,3 +1,1 @@
-# Hi!
-
-![Wow](/../../releases/latest/download/cool.png)
+<!--- ![Wow](/../../releases/latest/download/cool.png) -->
