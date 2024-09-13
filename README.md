@@ -1,3 +1,3 @@
-<!--- ![Wow](/../../releases/latest/download/cool.png) -->
+<image src="hello.svg" width=100% />
 
-<img src="image.jpg" width=100% />
+<img src="image.jpg" width=40px />
