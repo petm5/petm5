@@ -23,6 +23,10 @@
             background-position: 0% 50%;
           }
         }
+        @keyframes fade-in {
+          0% { opacity: 0 }
+          100% { opacity: 1 }
+        }
         .container {
           display: flex;
           width: 100%;
@@ -33,12 +37,13 @@
           align-items: center;
           font-family: Roboto, sans-serif, system-ui;
           background: linear-gradient(34deg, rgba(0,102,102,1) 0%, rgba(7,59,129,1) 100%);
-          animation: gradient 30s ease infinite;
+          animation: gradient 15s ease infinite;
           background-size: 400% 400%;
           box-shadow: 0 0 80px #0002 inset;
         }
         h1 {
           text-shadow: 0 0 3px #0004, 0 0 15px #0003;
+          animation: fade-in 1s ease-out;
         }
         .emoji {
           margin: 0;
@@ -48,7 +53,7 @@
           transform-origin: 70% 70%;
         }
         @media (prefers-reduced-motion) {
-          .container, .emoji {
+          .container, .emoji, .h1 {
             animation: none;
           }
         }
